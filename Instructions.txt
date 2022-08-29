@@ -1,0 +1,10 @@
+Create a fresh repository on github
+Open the folder containing all subfolders needs to be uploaded
+Right Click on Mouse then Git Bash here.(Note:- You should be loggedin to github from gitbash)
+Then run the following commands
+
+git init
+git add .
+git commit -m "First commit"
+git remote add origin "your GitHub URL"
+git push -u origin master
