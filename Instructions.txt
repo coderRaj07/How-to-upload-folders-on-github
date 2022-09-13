@@ -7,4 +7,5 @@ git init
 git add .
 git commit -m "First commit"
 git remote add origin "your GitHub URL"
+git config --global --unset http.proxy
 git push -u origin master
